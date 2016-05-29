@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2016, 1:28:09 PM
+    Author     : bendz
+*/
+/* ADD PRODCUTS PAGE */
+/* SIMPLE NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #555555;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+
+
+
+/* MAIN */
+
+#main {
+    width: 1000px; 
+    margin:auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+h2 {
+    color: #4EA9CF;
+    text-align: center;
+}
+label {
+
+    float:left;
+    margin-top:25px;
+    font-size:medium;
+    
+    width: 140px;
+}
+
+input[type=text] {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+    
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4EA9CF;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius:  20px;
+    margin-top: 40px;
+}
+
+
+#submitButton {
+    margin-left: 35%;
+    margin-right: 30px;
+}
+
+
+/*  SHOW PRODUCTS PAGE*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    width:50px;
+  
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
